@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import Navbar from "./components/Navbar"; // Import the Navbar component
-import { Boxes } from "./components/background-boxes"; // Import the Boxes component
-import { cn } from "./lib/utils";
+import Navbar from "../components/Navbar"; // Import the Navbar component
+import { Boxes } from "../components/background-boxes"; // Import the Boxes component
+import { cn } from "../lib/utils";
 
 export default function BackgroundBoxesDemo() {
   return (
